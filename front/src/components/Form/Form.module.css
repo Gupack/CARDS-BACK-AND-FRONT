@@ -1,0 +1,119 @@
+.container_Form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https:/i.imgur.com/zkyqCCY.jpg");
+
+}
+
+.remember {
+    color: beige;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(225, 225, 225, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(200, 200, 200);
+    flex-direction: column;
+}
+
+.container h2 {
+    font-size: 2em;
+    color: rgb(212, 212, 212);
+    text-align: center;
+}
+
+.divs {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #a8a8a8;
+    margin: 30px 0;
+}
+
+.divs label {
+    position: absolute;
+    top: 10%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.divs input:focus~label,
+.divs input:valid~label {
+    top: -5px;
+}
+
+.divs input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+
+.divs .icon {
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    line-height: 57px;
+}
+
+.remember {
+    font-size: .9em;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember label input {
+    margin-right: 3px;
+}
+
+.login {
+    font-size: .9em;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+    color: black;
+}
+
+.login a p {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login a p:hover {
+    text-decoration: underline;
+}
+
+.button {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(206, 206, 206);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+}

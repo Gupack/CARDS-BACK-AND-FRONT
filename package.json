@@ -1,0 +1,21 @@
+{
+  "name": "rym",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon /front/src/server.js"
+  },
+  "author": "felipe lopez",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.21",
+    "react-redux": "^8.0.5",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.4.2"
+  }
+}

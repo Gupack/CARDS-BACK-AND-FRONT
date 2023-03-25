@@ -1,0 +1,35 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #191919;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 99;
+    box-shadow: inset 0px -9px 85px -14px rgba(23, 23, 23, 1);
+
+}
+
+.logo {
+    width: 13%;
+
+}
+
+.navegation {
+    position: relative;
+    font-size: 1.1em;
+    color: rgb(212, 212, 212);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40x;
+    display: flex;
+
+
+}
+
+.navegation h3 {
+    color: #CF112B;
+}

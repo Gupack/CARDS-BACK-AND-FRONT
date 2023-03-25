@@ -1,0 +1,33 @@
+.bar .searchButton {
+    width: 100px;
+    height: 40px;
+    color: #CF112B;
+    background-color: transparent;
+    border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: .5s;
+}
+
+.bar .searchButton:hover {
+    color: rgb(207, 207, 207);
+}
+
+.input {
+    border: 0px;
+    border-radius: 15px 0px 0px 15px;
+    background-color: #CF112B;
+    height: 3em;
+}
+
+.button {
+    border: 0px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #CF112B;
+    height: 3em;
+
+}
+
+.searchButton {
+    background-color: CF112B;
+}
